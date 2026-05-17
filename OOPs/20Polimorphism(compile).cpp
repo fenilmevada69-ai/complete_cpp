@@ -1,0 +1,47 @@
+//Constructor Overloading
+// #include<iostream>
+// using namespace std;
+    
+// class Student {
+
+// public: 
+//     string name;
+
+//     Student() {
+//         cout<<"non-parameterized"<<endl;
+//     }
+
+//     Student(string name) {
+//         this->name = name;
+//         cout<<"parameterized"<<endl;
+//     }
+
+// };
+
+// int main() {
+//     Student s1("");  
+//     return 0;
+// }
+
+
+
+//Function Overloading
+// #include<iostream>
+// using namespace std;
+
+// class Print {
+// public: 
+//     void show(int x) {
+//         cout<<"int : "<<x<<endl;
+//     }
+//     void show(char ch) {
+//         cout<<"char : "<<endl;
+//     }
+
+// };
+    
+// int main() {
+//     Print p1;
+//     p1.show(2);
+//     return 0;
+// }

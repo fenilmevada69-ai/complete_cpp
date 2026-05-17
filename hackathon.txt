@@ -1,0 +1,308 @@
+----------------------------------------------------------------------------------------------------
+i have hackathon in college and i want to win only and only 1st rank.. i have given pb stmt which is given by Prama company
+
+Problem Statement 6:
+
+Agentic MCP Gateway: Building an AI Agent That Orchestrates Third-Party APIs
+
+via Model Context Protocol
+
+Description:
+
+The Model Context Protocol (MCP) is an emerging open standard that enables AI models to interact
+
+with external tools, data sources, and APIs through a unified interface. While individual MCP server
+
+implementations exist for popular services (GitHub, Slack, databases, etc.), there is no unified agentic
+
+layer that can intelligently orchestrate multiple MCP connections to complete complex, multi-step
+
+business workflows autonomously.
+
+Your challenge is to build an Agentic MCP Gateway: an AI-powered orchestration layer that connects
+
+to multiple third-party services via MCP servers, understands natural language workflow descriptions,
+
+decomposes them into executable steps, and orchestrates cross-service operations while handling
+
+errors, retries, and human-in-the-loop approvals.
+
+Challenge Requirements:
+
+1. MCP Server Integration: Build or configure MCP server connectors for at least four different
+
+third-party services spanning different categories: a project management tool (e.g., Jira, Linear, or
+
+Trello API), a communication platform (e.g., Slack or Discord API), a data/analytics service (e.g.,
+
+Google Sheets, Airtable, or a SQL database), and a cloud/DevOps tool (e.g., GitHub, AWS, or
+
+monitoring APIs). Each connector must implement the MCP specification for tool discovery,
+
+invocation, and response handling.
+
+2. Workflow Decomposition Engine: Build an LLM-powered planning agent that takes a natural
+
+language workflow description (e.g., 'When a critical bug is filed in Jira, create a GitHub branch,
+
+notify the on-call engineer in Slack, and update the incident tracker spreadsheet') and decomposes
+
+it into a directed acyclic graph (DAG) of MCP tool calls with proper data flow between steps.
+
+3. Execution Runtime: Implement a reliable execution runtime that: runs DAG steps in the correct
+
+dependency order (with parallelism where possible), handles transient API failures with
+
+configurable retry policies, supports human-in-the-loop approval gates for sensitive operations
+
+(e.g., deploying code, sending external communications), and maintains an execution log with full
+
+observability.
+
+4. Context Management: Implement efficient context management so the agent can: maintain
+
+conversation state across multi-turn interactions, pass output data from one MCP tool call as input
+
+to subsequent calls, and handle large payloads (e.g., file attachments, long API responses)
+
+through summarization or chunking.
+
+5. Security and Access Control: Implement a permission model where: each MCP connection
+
+has scoped credentials, the agent cannot escalate its own permissions, sensitive operations
+
+require explicit user confirmation, and all API calls are logged for audit purposes.
+
+Suggested Datasets:
+
+Mock API servers for each integration category (provided as Docker containers), sample workflow
+
+definitions in natural language, test scenarios with expected outcomes, and an MCP specification
+
+reference implementation.
+
+Problem Statement 6:
+
+Prama Innovations India Pvt. Ltd.
+
+602 Shapath-5 Building
+
+SG Highway, Ahmedabad 380015
+
+www.prama.ai
+
+12
+
+Technology Requirements:
+
+Python or TypeScript for the agent runtime, an LLM API (Claude, GPT, or open-source) for
+
+planning, MCP SDK (@modelcontextprotocol/sdk or equivalent), Docker for mock services, and a
+
+web-based UI for workflow definition and monitoring.
+
+Evaluation Criteria:
+
+Number of successfully integrated MCP services, workflow decomposition accuracy (correct DAG
+
+generation), end-to-end execution success rate on test scenarios, error handling robustness,
+
+latency overhead per orchestration step, and security audit compliance.
+
+Domain:
+
+MCP Integrations & Agentic AI
+
+
+
+I have given the template ppt which to be submit in college and i have generated content of slide 2(Description of Idea)
+
+
+
+Modern businesses run across dozens of disconnected tools — Jira for tasks, Slack for
+
+communication, GitHub for code, Google Sheets for data. Stitching these together for complex
+
+workflows requires manual effort, custom scripts, and constant maintenance.
+
+Our Solution : — Agentic MCP Gateway is an AI-powered orchestration layer that:
+
+• Connects to multiple third-party services via the Model Context Protocol (MCP)
+
+• Understands natural language workflow descriptions (e.g., "When a critical bug is
+
+filed in Jira, create a GitHub branch, notify the team on Slack, and log it in Google
+
+Sheets")
+
+• Automatically decomposes the DAG workflow into executable steps and runs them
+
+end-to-end
+
+• Handles failures, retries, and human-in-the-loop approvals — without writing a
+
+single line of integration code
+
+
+
+Give me points for this slide 2 content out of 10 as if best suits the requirements and check if follows Prama company requirements dont be blont and dont bettering me , pls be honest and tell me the score((ask if any questions you have))
+
+
+
+
+
+so give me 10/10 content for slide 2 only, i will paste it directly(pls give me perfect and correct informations and ask if any questions you have)
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+i have hackathon in college and i want to win only and only 1st rank.. i have given pb stmt which is given by Prama company
+
+Problem Statement 6:
+
+Agentic MCP Gateway: Building an AI Agent That Orchestrates Third-Party APIs
+
+via Model Context Protocol
+
+Description:
+
+The Model Context Protocol (MCP) is an emerging open standard that enables AI models to interact
+
+with external tools, data sources, and APIs through a unified interface. While individual MCP server
+
+implementations exist for popular services (GitHub, Slack, databases, etc.), there is no unified agentic
+
+layer that can intelligently orchestrate multiple MCP connections to complete complex, multi-step
+
+business workflows autonomously.
+
+Your challenge is to build an Agentic MCP Gateway: an AI-powered orchestration layer that connects
+
+to multiple third-party services via MCP servers, understands natural language workflow descriptions,
+
+decomposes them into executable steps, and orchestrates cross-service operations while handling
+
+errors, retries, and human-in-the-loop approvals.
+
+Challenge Requirements:
+
+1. MCP Server Integration: Build or configure MCP server connectors for at least four different
+
+third-party services spanning different categories: a project management tool (e.g., Jira, Linear, or
+
+Trello API), a communication platform (e.g., Slack or Discord API), a data/analytics service (e.g.,
+
+Google Sheets, Airtable, or a SQL database), and a cloud/DevOps tool (e.g., GitHub, AWS, or
+
+monitoring APIs). Each connector must implement the MCP specification for tool discovery,
+
+invocation, and response handling.
+
+2. Workflow Decomposition Engine: Build an LLM-powered planning agent that takes a natural
+
+language workflow description (e.g., 'When a critical bug is filed in Jira, create a GitHub branch,
+
+notify the on-call engineer in Slack, and update the incident tracker spreadsheet') and decomposes
+
+it into a directed acyclic graph (DAG) of MCP tool calls with proper data flow between steps.
+
+3. Execution Runtime: Implement a reliable execution runtime that: runs DAG steps in the correct
+
+dependency order (with parallelism where possible), handles transient API failures with
+
+configurable retry policies, supports human-in-the-loop approval gates for sensitive operations
+
+(e.g., deploying code, sending external communications), and maintains an execution log with full
+
+observability.
+
+4. Context Management: Implement efficient context management so the agent can: maintain
+
+conversation state across multi-turn interactions, pass output data from one MCP tool call as input
+
+to subsequent calls, and handle large payloads (e.g., file attachments, long API responses)
+
+through summarization or chunking.
+
+5. Security and Access Control: Implement a permission model where: each MCP connection
+
+has scoped credentials, the agent cannot escalate its own permissions, sensitive operations
+
+require explicit user confirmation, and all API calls are logged for audit purposes.
+
+Suggested Datasets:
+
+Mock API servers for each integration category (provided as Docker containers), sample workflow
+
+definitions in natural language, test scenarios with expected outcomes, and an MCP specification
+
+reference implementation.
+
+Problem Statement 6:
+
+Prama Innovations India Pvt. Ltd.
+
+602 Shapath-5 Building
+
+SG Highway, Ahmedabad 380015
+
+www.prama.ai
+
+12
+
+Technology Requirements:
+
+Python or TypeScript for the agent runtime, an LLM API (Claude, GPT, or open-source) for
+
+planning, MCP SDK (@modelcontextprotocol/sdk or equivalent), Docker for mock services, and a
+
+web-based UI for workflow definition and monitoring.
+
+Evaluation Criteria:
+
+Number of successfully integrated MCP services, workflow decomposition accuracy (correct DAG
+
+generation), end-to-end execution success rate on test scenarios, error handling robustness,
+
+latency overhead per orchestration step, and security audit compliance.
+
+Domain:
+
+MCP Integrations & Agentic AI
+
+
+
+I have given the template ppt which to be submit in college and i have generated content of slide 3(Object & Prototype)
+
+
+
+---Slide Content-----
+Objective: To build a production-ready Agentic MCP Gateway that enables non-technical users
+to automate complex, multi-service business workflows using plain English — with full
+observability, security, and reliability.
+Key Goals:
+•Integrate 4 MCP services: Jira, Slack, GitHub, Google Sheets
+•Natural language → DAG (Directed Acyclic Graph) of tool calls via LangGraph
+•Execute steps with parallelism, retry logic & approval gates
+•Expose workflows via a clean web UI + FastAPI backend
+Prototype Flow:
+User types: "Critical bug filed in Jira" ↓ LangGraph planning agent decomposes into
+steps ↓ Step 1: Create GitHub branch → Step 2: Notify Slack → Step 3: Log in Google
+Sheets ↓ Execution runtime runs with full logs & status tracking
+---Slide Content End----
+
+
+
+Give me points for this slide 3 content out of 10 as if best suits the requirements and check if follows Prama company requirements dont be blont and dont bettering me , pls be honest and tell me the score(ask if any questions you have)
+
+
+
+
+
+so give me 10/10 content for slide 2 only, i will paste it directly(pls give me perfect and correct informations and ask if any questions you have)
